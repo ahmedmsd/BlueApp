@@ -1,0 +1,11 @@
+<svg id="Group" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+    <path id="Path" d="M0,0H44V44H0Z" fill="none" />
+    <path id="Shape"
+        d="M29.334,12.807h0L.922,9.141H7.333L3.363,5.17a14.851,14.851,0,0,1,25.971,7.636ZM.917,9.14H0V1.806L3.363,5.17A14.822,14.822,0,0,0,.917,9.14Z"
+        transform="translate(7.333 7.36)" fill="none" stroke="#000" stroke-linecap="round"
+        stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.75" />
+    <path id="Shape-2" data-name="Shape"
+        d="M14.715,12.807a15.145,15.145,0,0,1-1.907-.124A14.73,14.73,0,0,1,4.259,8.508,14.73,14.73,0,0,1,0,0L28.417,3.667H22l3.971,3.971a14.83,14.83,0,0,1-11.255,5.169h0ZM29.334,11l0,0L25.971,7.637a14.82,14.82,0,0,0,2.446-3.971h.917V11Z"
+        transform="translate(7.333 23.833)" fill="none" stroke="#000" stroke-linecap="round"
+        stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.75" />
+</svg>

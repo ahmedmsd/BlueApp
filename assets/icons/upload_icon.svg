@@ -1,0 +1,13 @@
+<svg id="Group" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <path id="Path" d="M0,0H44V44H0Z" fill="none" />
+  <path id="Path-2" data-name="Path"
+      d="M8.625,23.925A8.444,8.444,0,0,1,0,15.675a8.444,8.444,0,0,1,8.625-8.25A9.652,9.652,0,0,1,15.431.483,11.167,11.167,0,0,1,25.514,2.316a8.732,8.732,0,0,1,3.278,8.776h1.833a6.417,6.417,0,1,1,0,12.833H28.792"
+      transform="translate(4.208 9.075)" fill="none" stroke="#000" stroke-linecap="round"
+      stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.75" />
+  <path id="Path-3" data-name="Path" d="M0,5.5,5.5,0,11,5.5" transform="translate(16.5 22)"
+      fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+      stroke-miterlimit="10" stroke-width="2.75" />
+  <path id="Path-4" data-name="Path" d="M.917,0V16.5" transform="translate(21.083 22)" fill="none"
+      stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+      stroke-width="2.75" />
+</svg>

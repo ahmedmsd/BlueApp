@@ -1,0 +1,10 @@
+<svg id="settings" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+    <path id="Path" d="M0,0H44V44H0Z" fill="none" />
+    <path id="Path-2" data-name="Path"
+        d="M13.429,2.414a3.16,3.16,0,0,1,6.142,0,3.161,3.161,0,0,0,4.717,1.954,3.162,3.162,0,0,1,4.345,4.345,3.161,3.161,0,0,0,1.953,4.715,3.16,3.16,0,0,1,0,6.142,3.161,3.161,0,0,0-1.954,4.717,3.162,3.162,0,0,1-4.345,4.345,3.161,3.161,0,0,0-4.715,1.953,3.16,3.16,0,0,1-6.142,0,3.161,3.161,0,0,0-4.717-1.954,3.162,3.162,0,0,1-4.345-4.345,3.161,3.161,0,0,0-1.953-4.715,3.16,3.16,0,0,1,0-6.142A3.161,3.161,0,0,0,4.369,8.712,3.162,3.162,0,0,1,8.714,4.367,3.158,3.158,0,0,0,13.429,2.414Z"
+        transform="translate(5.5 5.5)" fill="none" stroke="#000" stroke-linecap="round"
+        stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.75" />
+    <circle id="Oval" cx="5.5" cy="5.5" r="5.5" transform="translate(16.5 16.5)" fill="none"
+        stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+        stroke-width="2.75" />
+</svg>

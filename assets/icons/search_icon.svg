@@ -1,0 +1,9 @@
+<svg id="saerch" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+    <path id="Path" d="M0,0H44V44H0Z" fill="none" />
+    <circle id="Oval" cx="12.833" cy="12.833" r="12.833" transform="translate(5.5 5.5)" fill="none"
+        stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+        stroke-width="2.75" />
+    <path id="Path-2" data-name="Path" d="M11,11,0,0" transform="translate(27.5 27.5)" fill="none"
+        stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+        stroke-width="2.75" />
+</svg>

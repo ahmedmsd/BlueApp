@@ -1,0 +1,11 @@
+export 'area_and_city_widget.dart';
+export 'corrective_action_widget.dart';
+export 'deficiencies_widget.dart';
+export 'equ_capacity_and_equ_serial_widget.dart';
+export 'equ_manf_and_equ_model_widget.dart';
+export 'equ_number_and_equ_location_widget.dart';
+export 'inspection_result_widget.dart';
+export 'inspector_name_widget.dart';
+export 'issued_by_widget.dart';
+export 'new_sticker_and_sticker_expire_date_widget.dart';
+export 'org_code_and_prev_sticker_widget.dart';
