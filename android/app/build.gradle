@@ -29,9 +29,10 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    compileSdkVersion 34
+    namespace = "com.alexapps.test_workapp"
+    compileSdkVersion 35
     // ndkVersion flutter.ndkVersion
-    ndkVersion '25.1.8937393'
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -51,10 +52,15 @@ android {
         applicationId "com.alexapps.test_workapp"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion flutter.minSdkVersion
-        targetSdkVersion 34
+        minSdkVersion 23
+        targetSdkVersion 35
+        multiDexEnabled true
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
     }
 
     signingConfigs {
@@ -81,4 +87,7 @@ flutter {
 
 dependencies {
    // implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation('androidx.core:core:1.10.1') {
+        exclude group: 'androidx.core', module: 'core'
+    }
 }

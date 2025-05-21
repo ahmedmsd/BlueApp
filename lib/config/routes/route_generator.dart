@@ -22,7 +22,6 @@ import 'package:test_workapp/features/work_orders/presentation/screens/search_wo
 import 'package:test_workapp/features/work_orders/presentation/screens/view_work_order_signature_screen.dart';
 import 'package:test_workapp/features/work_orders/presentation/screens/work_order_details_route_arguments.dart';
 import 'package:test_workapp/features/work_orders/presentation/screens/work_order_details_screen.dart';
-import 'package:test_workapp/features/rejected/presentation/screens/rejected_equipment_screen.dart';
 
 import 'app_routes.dart';
 
@@ -150,11 +149,6 @@ class RouteGenerator {
           builder: (context) => LoadTestViewScreen(
             certification: args as Certification,
           ),
-        );
-
-      case Routes.rejectedEquipmentViewScreen:
-        return MaterialPageRoute(
-          builder: (context) => RejectedEquipmentViewScreen(),
         );
 
       default:

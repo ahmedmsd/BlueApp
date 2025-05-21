@@ -14,5 +14,4 @@ class Endpoints {
   static const String customersUrl = 'customers';
   static const String regionsUrl = 'regions';
   static const String citiesUrl = 'cities';
-  static const String rejectedUrl = 'rejected';
 }

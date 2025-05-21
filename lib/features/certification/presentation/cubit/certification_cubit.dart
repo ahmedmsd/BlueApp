@@ -294,7 +294,9 @@ class CertificationCubit extends Cubit<CertificationState> {
   }) async {
     emit(AddAttachedPhotoToListLoadingState());
     try {
-      await ImagePickerHelper.pickImage(imageSource: imageSource).then((value) {
+      await ImagePickerHelper.pickImage(
+              imageSource: imageSource, imageQuality: 30,)
+          .then((value) {
         if (value != null) {
           attachedPhotosList.add(value);
         }
@@ -402,7 +404,12 @@ class CertificationCubit extends Cubit<CertificationState> {
 
     if (certification != null) {
       if (workOrder != null) {
-        workOrder!.sequence = workOrder!.sequence! + 1;
+        if (workOrder!.certifications.isEmpty) {
+          workOrder!.sequence = workOrder!.sequence! + 1;
+        } else {
+          workOrder!.sequence = workOrder!.certifications.length + 1;
+        }
+
         workOrder!.certifications.add(certification);
         await isarService.addWorkOrder(workOrder!);
       }

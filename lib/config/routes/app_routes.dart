@@ -19,6 +19,4 @@ class Routes {
   static const String loadTestCheckListScreen = 'loadTestCheckListScreen';
   static const String loadTestDetailsScreen = 'loadTestDetailsScreen';
   static const String loadTestViewScreen = 'loadTestViewScreen';
-  static const String rejectedEquipmentViewScreen =
-      'rejectedEquipmentViewScreen';
 }

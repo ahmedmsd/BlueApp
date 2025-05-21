@@ -8,7 +8,6 @@ import 'package:test_workapp/core/widgets/app_svg_icon.dart';
 import 'package:test_workapp/core/widgets/show_floating.dart';
 import 'package:test_workapp/features/checklists/presentation/cubit/checklists_cubit.dart';
 import 'package:test_workapp/features/cities/presentation/cubit/cities_cubit.dart';
-import 'package:test_workapp/features/rejected/presentation/cubit/rejected_cubit.dart';
 import 'package:test_workapp/features/customers/presentation/cubit/customers_cubit.dart';
 import 'package:test_workapp/features/departments/presentation/cubit/departments_cubit.dart';
 import 'package:test_workapp/features/equipments/presentation/cubit/equipments_cubit.dart';
@@ -21,7 +20,6 @@ import 'package:test_workapp/features/work_orders/presentation/screens/home_scre
 import 'package:test_workapp/features/layout/presentation/widgets/appbar_layout.dart';
 import 'package:test_workapp/features/settings/presentation/screens/settings_screen.dart';
 import 'package:test_workapp/isar_service.dart';
-import 'package:test_workapp/features/rejected/presentation/cubit/rejected_cubit.dart';
 
 class LayoutScreen extends StatefulWidget {
   const LayoutScreen({super.key});
@@ -124,13 +122,6 @@ class _LayoutScreenState extends State<LayoutScreen> {
             }
           },
         ),
-        BlocListener<RejectedCubit, RejectedState>(
-          listener: (context, state) {
-            if (state is GetRejectedErrorState) {
-              ShowFloating.toast(message: state.errorMessage);
-            }
-          },
-        ),
         BlocListener<WorkOrdersCubit, WorkOrdersState>(
           listener: (context, state) {
             if (state is GetWorkOrdersErrorState) {
@@ -155,7 +146,6 @@ class _LayoutScreenState extends State<LayoutScreen> {
                     customersCubit: context.read<CustomersCubit>(),
                     regionsCubit: context.read<RegionsCubit>(),
                     citiesCubit: context.read<CitiesCubit>(),
-                    rejectedCubit: context.read<RejectedCubit>(),
                     workOrdersCubit: context.read<WorkOrdersCubit>(),
                     isInternal: true,
                     errorMessage: state.errorMessage,

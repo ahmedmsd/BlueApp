@@ -22,7 +22,7 @@ class ChecklistDetailsEntity extends Equatable {
         itemId: json["item_id"],
         checklistId: json["checklist_id"],
         parentId: json["parent_id"],
-        itemTitle: json["item_title"],
+        itemTitle: json["item_title"]??"",
         reference: json["reference"],
         sortorder: json["sortorder"],
       );

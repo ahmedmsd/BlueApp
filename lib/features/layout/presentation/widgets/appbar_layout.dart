@@ -11,7 +11,6 @@ import 'package:test_workapp/core/utils/constants/app_constants.dart';
 import 'package:test_workapp/core/widgets/app_svg_icon.dart';
 import 'package:test_workapp/features/checklists/presentation/cubit/checklists_cubit.dart';
 import 'package:test_workapp/features/cities/presentation/cubit/cities_cubit.dart';
-import 'package:test_workapp/features/rejected/presentation/cubit/rejected_cubit.dart';
 import 'package:test_workapp/features/customers/presentation/cubit/customers_cubit.dart';
 import 'package:test_workapp/features/departments/presentation/cubit/departments_cubit.dart';
 import 'package:test_workapp/features/equipments/presentation/cubit/equipments_cubit.dart';
@@ -89,7 +88,6 @@ class AppbarLayout extends StatelessWidget implements PreferredSizeWidget {
                         workOrdersCubit: context.read<WorkOrdersCubit>(),
                         regionsCubit: context.read<RegionsCubit>(),
                         citiesCubit: context.read<CitiesCubit>(),
-                        rejectedCubit: context.read<RejectedCubit>(),
                         isInternal: true,
                       );
                 },

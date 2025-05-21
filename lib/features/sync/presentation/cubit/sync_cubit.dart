@@ -960,10 +960,20 @@ class SyncCubit extends Cubit<SyncState> {
     List<File> photos = [];
     List<List<int>> attachedPhotos = await isarService
         .getAllAttachedPhotosByCertificationId(certification.id);
-    for (List<int> photo in attachedPhotos) {
+    // for (List<int> photo in attachedPhotos) {
+    //   File? imageFile = createTempImageFileFun(
+    //     imageData: photo,
+    //     imageName: 'cert_${certification.id}_eq_${certification.eqId}',
+    //   );
+    //   if (imageFile != null) {
+    //     photos.add(imageFile);
+    //   }
+    // }
+    for (int i = 0; i < attachedPhotos.length; i++) {
+      List<int> photo = attachedPhotos[i];
       File? imageFile = createTempImageFileFun(
         imageData: photo,
-        imageName: 'cert_${certification.id}_eq_${certification.eqId}',
+        imageName: 'cert_${certification.id}_eq_${certification.eqId}_$i',
       );
       if (imageFile != null) {
         photos.add(imageFile);
